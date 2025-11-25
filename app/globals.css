@@ -55,5 +55,10 @@ a:focus-visible {
 
 /* Card hover effect */
 .card-hover {
-  @apply transform transition-all duration-300 hover:scale-105 hover:shadow-luxury-hover;
+  @apply transform transition-all duration-300;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
